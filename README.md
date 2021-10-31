@@ -8,3 +8,6 @@ Install Makefile
 sudo apt install make
 ```
 ##Code
+```bash
+awk -F',' '{sum+=$2;} END{print sum;}' script.awk Dog_Names.csv > output.txt
+```
